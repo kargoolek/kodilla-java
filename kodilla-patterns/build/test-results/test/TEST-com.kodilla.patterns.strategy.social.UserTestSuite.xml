@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-26T09:37:02" hostname="DESKTOP-4R9K6OM" time="0.004">
+  <properties/>
+  <testcase name="testDefaultSharingStrategies" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.003"/>
+  <testcase name="testIndividualSharingStrategy" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.001"/>
+  <system-out><![CDATA[
+TESTING DEFAULT SET
+
+Millenials default share:
+Sharing post on Facebook...
+YGeneration default share:
+Sharing post on Twitter...
+ZGeneration default share:
+Sharing post on Snapchat...
+
+TESTING PUBLISHER SWITCHING
+
+Millenials user default share:
+Sharing post on Facebook...
+Millenials user changed publisher to Snapchat
+Sharing post on Snapchat...
+Millenials user changed publisher to Twitter
+Sharing post on Twitter...
+Sharing post on Twitter...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

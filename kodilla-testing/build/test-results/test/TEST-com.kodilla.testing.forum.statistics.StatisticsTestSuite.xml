@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.statistics.StatisticsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-08-26T09:37:58" hostname="DESKTOP-4R9K6OM" time="0.021">
+  <properties/>
+  <testcase name="testZeroComments" classname="com.kodilla.testing.forum.statistics.StatisticsTestSuite" time="0.013"/>
+  <testcase name="testCommentsLessThanPosts" classname="com.kodilla.testing.forum.statistics.StatisticsTestSuite" time="0.001"/>
+  <testcase name="test1000Posts" classname="com.kodilla.testing.forum.statistics.StatisticsTestSuite" time="0.001"/>
+  <testcase name="testCommentsMoreThanPosts" classname="com.kodilla.testing.forum.statistics.StatisticsTestSuite" time="0.001"/>
+  <testcase name="testZeroPosts" classname="com.kodilla.testing.forum.statistics.StatisticsTestSuite" time="0.001"/>
+  <testcase name="test100Users" classname="com.kodilla.testing.forum.statistics.StatisticsTestSuite" time="0.001"/>
+  <testcase name="testNoUsers" classname="com.kodilla.testing.forum.statistics.StatisticsTestSuite" time="0.001"/>
+  <system-out><![CDATA[Test Suite: begin
+Test Case: begin
+FORUM STATS:
+users count: 7
+posts count: 0
+comments count: 0
+per user posts count: 0,00
+per user comments count: 0,00
+per post comments count: 0,00
+Test Case: end
+
+Test Case: begin
+FORUM STATS:
+users count: 7
+posts count: 99
+comments count: 10
+per user posts count: 14,14
+per user comments count: 1,43
+per post comments count: 0,10
+Test Case: end
+
+Test Case: begin
+FORUM STATS:
+users count: 7
+posts count: 1000
+comments count: 0
+per user posts count: 142,86
+per user comments count: 0,00
+per post comments count: 0,00
+Test Case: end
+
+Test Case: begin
+FORUM STATS:
+users count: 7
+posts count: 10
+comments count: 99
+per user posts count: 1,43
+per user comments count: 14,14
+per post comments count: 9,90
+Test Case: end
+
+Test Case: begin
+FORUM STATS:
+users count: 7
+posts count: 0
+comments count: 0
+per user posts count: 0,00
+per user comments count: 0,00
+per post comments count: 0,00
+Test Case: end
+
+Test Case: begin
+FORUM STATS:
+users count: 100
+posts count: 0
+comments count: 0
+per user posts count: 0,00
+per user comments count: 0,00
+per post comments count: 0,00
+Test Case: end
+
+Test Case: begin
+FORUM STATS:
+users count: 0
+posts count: 0
+comments count: 0
+per user posts count: 0,00
+per user comments count: 0,00
+per post comments count: 0,00
+Test Case: end
+
+Test Suite: end
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
