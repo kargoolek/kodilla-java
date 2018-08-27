@@ -18,4 +18,6 @@ public interface CompanyDao extends CrudRepository<Company, Integer> {
     @Query(nativeQuery = true)
     List<Company> retrieveByFirstLetters2(@Param("NO_LETTERS") int noLetters, @Param("LETTERS") String letters);
 
+    @Query
+    List<Company> retrieveContainingLetters(@Param("LETTERS") String letters);
 }

@@ -6,10 +6,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@NamedQuery(
-        name = "Company.retrieveByFirstLetters",
-        query = "FROM Company WHERE name LIKE CONCAT(:LETTERS,'%')"
-)
+@NamedQueries({
+        @NamedQuery(
+                name = "Company.retrieveByFirstLetters",
+                query = "FROM Company WHERE name LIKE CONCAT(:LETTERS,'%')"
+        ),
+        @NamedQuery(
+                name = "Company.retrieveContainingLetters",
+                query = "FROM Company WHERE name LIKE CONCAT('%', :LETTERS,'%')"
+        )
+})
 @NamedNativeQuery(
         name = "Company.retrieveByFirstLetters2",
         query = "SELECT * FROM Companies WHERE LEFT (company_name, :NO_LETTERS) = :LETTERS",
