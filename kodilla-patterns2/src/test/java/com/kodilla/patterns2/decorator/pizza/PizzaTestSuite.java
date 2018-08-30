@@ -49,7 +49,7 @@ public class PizzaTestSuite {
     assertEquals(new BigDecimal(17), calculatedCostOfPizzaWithOnion);
     assertEquals(new BigDecimal(27), calculatedCostOfPizzaWithAllIngredients);
     assertEquals("New order for pizza with ingredients: tomato sauce, cheese, onion", pizza.getIngredients());
-    assertEquals("New order for pizza with ingredients: tomato sauce, cheese, onion, chicken, sausage, pepperoni with extra chees", pizzaAll.getIngredients());
+    assertEquals("New order for pizza with ingredients: tomato sauce, cheese, onion, chicken, sausage, pepperoni with extra cheese", pizzaAll.getIngredients());
 
     //log
     System.out.println(pizza.getIngredients()+". Total cost: "+ pizza.getCost());
