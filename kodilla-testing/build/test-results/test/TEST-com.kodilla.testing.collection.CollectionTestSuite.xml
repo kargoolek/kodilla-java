@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-26T09:37:58" hostname="DESKTOP-4R9K6OM" time="0.004">
+<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-31T18:17:06" hostname="DESKTOP-4R9K6OM" time="0.008">
   <properties/>
-  <testcase name="testOddNumbersExterminatorEmptyList" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.002"/>
-  <testcase name="testOddNumbersExterminatorNormalList" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.001"/>
+  <testcase name="testOddNumbersExterminatorEmptyList" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.006"/>
+  <testcase name="testOddNumbersExterminatorNormalList" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.002"/>
   <system-out><![CDATA[Starting new test suite: 'CollectionTestSuite'
 New test Case: begin
 Testing empty list...
 Test Case: end
 New test Case: begin
 Testing list of 100 random integers...
-*** generated list for test: [-462683088, -250717184, 1619956976, 1126706296, -2044280760, 1843963176, 849708916, 1989365636, 588535304, 850877578, -367749972, 1472833152, 1751721554, -275782770, -229164870, 901602900, -156256642, 1023885152, 1905370616, -1260814384, -1541661766, -2020949480, -194768810, 147197582, 1581658906, -23400466, -1174918982, -173478542, -1532578544, -519921936, -890560452, -998974848, -991027810, 1706143014, -1071250994, -1510788764, -482072120, -1405958240, -174751782, 750506034, 1117454278, -1078058588, 993121512, -55756708, -2009401000, -1440719812, -1832997762, -2096036672, -675186762, -1630538062]
+*** generated list for test: [1589302704, 1591467576, 806659728, 1695543562, -1257603954, 1673081858, 576515818, -585808144, 1338154060, 673178910, 1575153328, -1094909468, -714582948, 45359848, -5127282, 1613549552, -192113350, 101056682, -230860312, -633930960, 1152837370, 1893579248, 1915430028, -1467341390, -1804957656, -737068926, 1967899296, -1342887628, 544954, 232762898, -1515970252, 1249207372, 597248586, -2110932642, 1834978038, -582257084, 1953895678, 1357817910, 2072474310, 612271798, 1609709996, -1404224510, 397736404, -1279267826, -1607804300, 1571422816, 833976390]
 Test Case: end
 Testing test suite: 'CollectionTestSuite' ended.
 ]]></system-out>

@@ -29,6 +29,7 @@ public class CalculatorTestSuite {
         LOGGER.info("Testing add method");
         assertEquals(25, result, 0);
     }
+
     @Test
     public void testSub() {
         //Given
@@ -38,6 +39,7 @@ public class CalculatorTestSuite {
         LOGGER.info("Testing sub method");
         assertEquals(-5, result, 0);
     }
+
     @Test
     public void testMul() {
         //Given
@@ -47,6 +49,7 @@ public class CalculatorTestSuite {
         LOGGER.info("Testing mul method");
         assertEquals(150, result, 0);
     }
+
     @Test
     public void testDiv() {
         //Given

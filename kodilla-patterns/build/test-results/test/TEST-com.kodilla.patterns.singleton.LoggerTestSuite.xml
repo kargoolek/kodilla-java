@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.singleton.LoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-26T09:37:02" hostname="DESKTOP-4R9K6OM" time="0.0">
+<testsuite name="com.kodilla.patterns.singleton.LoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-31T18:16:28" hostname="DESKTOP-4R9K6OM" time="0.001">
   <properties/>
-  <testcase name="testAddLog" classname="com.kodilla.patterns.singleton.LoggerTestSuite" time="0.0"/>
+  <testcase name="testAddLog" classname="com.kodilla.patterns.singleton.LoggerTestSuite" time="0.001"/>
   <system-out><![CDATA[Log: [new log line]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
