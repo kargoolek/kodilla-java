@@ -1,6 +1,7 @@
 package com.kodilla.patterns2.aop.calculator;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -31,6 +32,20 @@ public class Watcher {
             LOGGER.info("Time consumed " + (end - begin) + "[ms]");
         } catch (Throwable throwable) {
             throw throwable;
+        }
+        return result;
+    }
+
+    @Around("execution(* com.kodilla.patterns2.facade.api.OrderFacade.processOrder(..))" + "&&target(object)")
+    public Object logFacadeExecution(final ProceedingJoinPoint proceedingJoinPoint, Object object) throws Throwable {
+        Object result;
+        try {
+            LOGGER.info("Starting order facade...");
+            result = proceedingJoinPoint.proceed();
+        }catch (Throwable throwable) {
+            throw throwable;
+        } finally {
+            LOGGER.info("Method " + proceedingJoinPoint.getSignature().getName() + " from " + object.getClass().getName() + " just finished.");
         }
         return result;
     }
