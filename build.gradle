@@ -28,6 +28,7 @@ dependencies {
     //External dependencies
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-aop')
+    compile('org.seleniumhq.selenium:selenium-java:3.+')
 
     //Test dependencies
     testCompile('org.springframework.boot:spring-boot-starter-test')
